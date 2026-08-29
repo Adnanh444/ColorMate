@@ -1,0 +1,41 @@
+[
+  {
+    "id": "dusty_rose",
+    "name_en": "Dusty Rose",
+    "name_bn": "ডাস্টি রোজ",
+    "hex": "#C9A0A0",
+    "rgbR": 201,
+    "rgbG": 160,
+    "rgbB": 160,
+    "category": "Pink",
+    "tone": "Muted",
+    "tags": "fashion,soft,pink",
+    "description_bn": "গোলাপি ও হালকা বাদামির মাঝামাঝি একটি নরম মিউটেড রঙ।"
+  },
+  {
+    "id": "navy_blue",
+    "name_en": "Navy Blue",
+    "name_bn": "নেভি ব্লু",
+    "hex": "#000080",
+    "rgbR": 0,
+    "rgbG": 0,
+    "rgbB": 128,
+    "category": "Blue",
+    "tone": "Dark",
+    "tags": "classic,formal,blue",
+    "description_bn": "একটি গাঢ় ও ক্লাসিক নীল রঙ যা পোশাকের জন্য জনপ্রিয়।"
+  },
+  {
+    "id": "olive_green",
+    "name_en": "Olive Green",
+    "name_bn": "অলিভ গ্রিন",
+    "hex": "#808000",
+    "rgbR": 128,
+    "rgbG": 128,
+    "rgbB": 0,
+    "category": "Green",
+    "tone": "Muted",
+    "tags": "earthy,outdoor,green",
+    "description_bn": "জলপাই ফলের মত প্রাকৃতিক ও মিউটেড সবুজ রঙ।"
+  }
+]
