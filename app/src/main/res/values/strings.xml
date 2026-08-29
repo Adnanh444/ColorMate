@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Color Mate</string>
+    <string name="point_at_color">Point at the color</string>
+    <string name="scan_color">Scan Color</string>
+    <string name="scan_gallery">Scan From Gallery</string>
+    <string name="lighting_warning_low">Lighting is too low. Move to a brighter area for better color accuracy.</string>
+    <string name="lighting_warning_high">Lighting is too bright or overexposed.</string>
+    <string name="made_by">Made by Adnan</string>
+</resources>
