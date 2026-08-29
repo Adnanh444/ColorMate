@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Color Mate</string>
+    <string name="point_at_color">রঙের দিকে ক্যামেরা ধরুন</string>
+    <string name="scan_color">রঙ শনাক্ত করুন</string>
+    <string name="scan_gallery">গ্যালারি থেকে রঙ দেখুন</string>
+    <string name="lighting_warning_low">আলো খুব কম। সঠিক রঙ শনাক্ত করতে একটু উজ্জ্বল জায়গায় যান।</string>
+    <string name="lighting_warning_high">আলো অত্যাধিক বেশি।</string>
+    <string name="made_by">মেড বাই আদনান</string>
+</resources>
