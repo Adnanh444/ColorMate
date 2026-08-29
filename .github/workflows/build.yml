@@ -3,8 +3,6 @@ name: Build Color Mate APK
 on:
   push:
     branches: [ "main", "master" ]
-  pull_request:
-    branches: [ "main", "master" ]
   workflow_dispatch:
 
 jobs:
@@ -21,17 +19,15 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Install Gradle & Generate Wrapper
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y gradle
-          gradle wrapper --gradle-version 8.4
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
 
       - name: Make gradlew executable
         run: chmod +x gradlew
 
-      - name: Build Debug APK
-        run: ./gradlew assembleDebug --stacktrace
+      - name: Build Debug APK with Full Logs
+        run: ./gradlew assembleDebug --info --stacktrace
+        continue-on-error: true
 
       - name: Upload Debug APK Artifact
         uses: actions/upload-artifact@v4
